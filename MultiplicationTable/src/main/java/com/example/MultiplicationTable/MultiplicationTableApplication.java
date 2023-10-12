@@ -12,6 +12,7 @@ public class MultiplicationTableApplication {
 	{
 		SpringApplication.run(MultiplicationTableApplication.class, args);
 		int a=2;
+		//Table loop
 		for(int k=1;k<=10;k++)
 		{
 			System.out.println("2 * "+k+ " = "+a*k);
